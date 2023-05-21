@@ -7,8 +7,8 @@ interface NavLinkProps {
 
 const NavLink = ({ href, text }: NavLinkProps) => {
   return (
-    <a href={`/#${href}`} className="mr-[5px] sm:mr-[2rem] ">
-      <p className="text-slate-200  font-bold text-xl tracking-wide transition ease-in-out  duration-300 hover:text-slate-400">
+    <a href={`/#${href}`} className="mr-[5px] sm:mr-[2rem]  ">
+      <p className="text-slate-200  font-bold text-xl sm:tracking-wide tracking-tight transition ease-in-out  duration-300 hover:text-slate-400">
         {text}
       </p>
     </a>
