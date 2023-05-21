@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color-black: #100c08;
+}
+.error-message {
+  color: #ddd;
+}
+
+.heroHeight {
+  height: calc(100vh - 28px);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--main-color-black);
+}
+
+@media (max-width: 64em) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 70%;
+  }
+  .heroHeight {
+    height: auto;
+  }
+}

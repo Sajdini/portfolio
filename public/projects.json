@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Get Fit",
+    "description": "A project that i made a while ago, here you can find all the instructions you need for excercising.",
+    "stack": ["React", "React-router-dom", "react-icons"],
+    "img": "/get-fit.png",
+    "url": "https://getfit-excercises.netlify.app/"
+  },
+  {
+    "name": "Recipe App",
+    "description": "A pretty aesthetic app. It had to be that way. It's about food after all. You can find some delicious recipes, and even classify them by cuisine",
+    "stack": [
+      "styled-components",
+      "framer-motion",
+      "typescript",
+      "React ",
+      "React-router-dom",
+      "react-icons"
+    ],
+    "img": "/recipe.png",
+    "url": "https://getyourrecipeapp.netlify.app/"
+  },
+  {
+    "name": "Linkedin Clone",
+    "description": "This was supposed to be a html/css practice. Later i decided to make this a complete project. Stay tuned for this one.",
+    "stack": [
+      "styled-components",
+      "react-icons",
+      "react",
+      "react-redux",
+      "reduxjs/toolkit"
+    ],
+    "img": "/linkedin.png",
+    "url": "https://62d401fb0eebee553a9d45ba--linkedinclone-app.netlify.app/"
+  },
+  {
+    "name": "Pabau clinic software",
+    "description": "During my time at Pabau, i had the pleasure to participate in the development of this huge crm platform.",
+    "stack": [
+      "Antd",
+      "Typescript",
+      "Nextjs",
+      "NodeJS",
+      "GraphQL",
+      "Prisma",
+      "Hasura",
+      "Cypress"
+    ],
+    "img": "/pabau.png",
+    "url": "https://app.pabau.com/"
+  }
+]
