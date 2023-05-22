@@ -114,10 +114,10 @@ const ContactForm = () => {
                 className="error-message"
               />
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col-reverse justify-center items-center">
               <button
                 type="submit"
-                className="bg-amber-400 py-2 px-5 w-[300px]  flex items-start justify-center gap-[10px] "
+                className="bg-amber-400 py-2 px-5 w-[300px] gap-[10px] "
               >
                 <span className="block">Submit</span>
               </button>

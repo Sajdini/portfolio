@@ -1,12 +1,7 @@
 "use client";
 import LottieImg from "./Lottie";
-import { useMediaQuery } from "react-responsive";
-const Hero = () => {
-  const midScreen = useMediaQuery({
-    query: "(min-width:638px)",
-  });
-  const heroHeight = midScreen ? "calc(100vh - 28px)" : "";
 
+const Hero = () => {
   return (
     <div className=" px-[5px] lg:px-[0px] w-full h-full flex  items-center heroHeight">
       <div className=" w-full flex flex-col-reverse justify-between items-center lg:flex-row ">

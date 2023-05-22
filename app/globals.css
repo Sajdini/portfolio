@@ -12,6 +12,7 @@
 .heroHeight {
   height: calc(100vh - 28px);
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,5 +32,6 @@ body {
   }
   .heroHeight {
     height: auto;
+    margin: 70px 0;
   }
 }
