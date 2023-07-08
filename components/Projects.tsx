@@ -1,7 +1,16 @@
+"use client";
 import React from "react";
 import data from "../public/projects.json";
 import Image from "next/image";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { useMediaQuery } from "react-responsive";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 interface P {
   project: (typeof data)[0];
 }
@@ -42,17 +51,43 @@ const ProjectCard = ({ project }: P) => {
 };
 
 const Projects = () => {
+  const isBigScreen = useMediaQuery({ query: "(min-width: 1200px)" });
+  const isMediumScreen = useMediaQuery({ query: "(min-width: 900px)" });
+  const isSmallScreen = useMediaQuery({ query: "(min-width: 600px)" });
+  const carouselUnitShow = () => {
+    if (isMediumScreen) return 3;
+    if (isSmallScreen) return 2;
+    return 1;
+  };
+
+  const carouselSpace = () => {
+    if (isBigScreen) return 60;
+    if (isMediumScreen) return 50;
+    if (isSmallScreen) return 30;
+    return 15;
+  };
+
   return (
-    <div className="w-full px-[10px]">
+    <div className="w-full px-[10px] xl:px-0">
       <h2 className="text-4xl font-bold text-slate-200 mb-10 ">
         Some of the projects i have worked on...
       </h2>
-      <div className=" w-full  py-5 px-2 rounded-lg  bg-slate-800  ">
-        <div className="flex flex-wrap justify-center gap-[5px] md:justify-center items-stretch lg:gap-5 ">
+      <div className=" w-full pb-4   px-2 rounded-lg  bg-slate-800  ">
+        <Swiper
+          style={{ padding: "0 4rem 4rem" }}
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={carouselSpace()}
+          slidesPerView={carouselUnitShow()}
+          navigation={true}
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+        >
           {data.map((item, index) => (
-            <ProjectCard project={item} key={index} />
+            <SwiperSlide key={index}>
+              <ProjectCard project={item} />
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </div>
   );

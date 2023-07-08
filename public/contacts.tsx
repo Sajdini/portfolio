@@ -23,8 +23,8 @@ export const contactData = [
   { link: "ajdinis1993@gmail.com", icon: <SiGmail /> },
   { link: "https://www.linkedin.com/in/samir-ajdini/", icon: <SiLinkedin /> },
   { link: "https://github.com/Sajdini", icon: <SiGithub /> },
-  { link: "@AjdiniS", icon: <SiFacebook /> },
-  { link: "https://www.facebook.com/", icon: <SiTelegram /> },
+  { link: "@AjdiniS", icon: <SiTelegram /> },
+  { link: "https://www.facebook.com/", icon: <SiFacebook /> },
   { link: "https://www.instagram.com/ajdini_s/", icon: <SiInstagram /> },
 ];
 

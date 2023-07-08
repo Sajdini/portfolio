@@ -13,6 +13,19 @@
   height: calc(100vh - 28px);
 }
 
+.menu-open {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu-closed {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+
 html {
   scroll-behavior: smooth;
 }

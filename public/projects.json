@@ -1,39 +1,5 @@
 [
   {
-    "name": "Get Fit",
-    "description": "A project that i made a while ago, here you can find all the instructions you need for excercising.",
-    "stack": ["React", "React-router-dom", "react-icons"],
-    "img": "/get-fit.png",
-    "url": "https://getfit-excercises.netlify.app/"
-  },
-  {
-    "name": "Recipe App",
-    "description": "A pretty aesthetic app. It had to be that way. It's about food after all. You can find some delicious recipes, and even classify them by cuisine",
-    "stack": [
-      "styled-components",
-      "framer-motion",
-      "typescript",
-      "React ",
-      "React-router-dom",
-      "react-icons"
-    ],
-    "img": "/recipe.png",
-    "url": "https://getyourrecipeapp.netlify.app/"
-  },
-  {
-    "name": "Linkedin Clone",
-    "description": "This was supposed to be a html/css practice. Later i decided to make this a complete project. Stay tuned for this one.",
-    "stack": [
-      "styled-components",
-      "react-icons",
-      "react",
-      "react-redux",
-      "reduxjs/toolkit"
-    ],
-    "img": "/linkedin.png",
-    "url": "https://62d401fb0eebee553a9d45ba--linkedinclone-app.netlify.app/"
-  },
-  {
     "name": "Pabau clinic software",
     "description": "During my time at Pabau, i had the pleasure to participate in the development of this huge crm platform.",
     "stack": [
@@ -46,7 +12,55 @@
       "Hasura",
       "Cypress"
     ],
-    "img": "/pabau.png",
+    "img": "/pabau-clinic.png",
     "url": "https://app.pabau.com/"
+  },
+  {
+    "name": "ArtDent",
+    "description": "A small app for a denthist clinic, contains calendar and events scheduler, remainders, and notes creator.",
+    "stack": [
+      "Antd",
+      "Typescript",
+      "Nextjs",
+      "firebase",
+      "formik",
+      "react-calendar"
+    ],
+    "img": "/artdent.png",
+    "url": "https://arben-git-main-sajdini.vercel.app/"
+  },
+  {
+    "name": "Get Fit",
+    "description": "A project that i made a while ago, here you can find all the instructions you need for excercising.",
+    "stack": ["React", "React-router-dom", "react-icons"],
+    "img": "/get-fit.png",
+    "url": "https://getfit-excercises.netlify.app/"
+  },
+  {
+    "name": "Json Converter",
+    "description": "Small app helpfull to convert json to csv and vice versa",
+    "stack": [
+      "Javascript",
+      "React",
+      "Styled Components",
+      "Papa-React",
+      "React router"
+    ],
+    "img": "/jsontocsv.png",
+    "url": "https://convertjsontocsv.netlify.app/"
+  },
+  {
+    "name": "Recipe App",
+    "description": "An educational website for a restaurant's interns.",
+    "stack": [
+      "styled-components",
+      "framer-motion",
+      "typescript",
+      "React ",
+      "React-router-dom",
+      "react-icons"
+    ],
+    "img": "/recipe.png",
+    "url": "https://getyourrecipeapp.netlify.app/"
   }
 ]
